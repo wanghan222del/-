@@ -1,0 +1,6 @@
+#ifndef ARMOR_TRACKER__TF2_TIME_WRAPPER_HPP_
+#define ARMOR_TRACKER__TF2_TIME_WRAPPER_HPP_
+
+#include <tf2/time.h>
+
+#endif  // ARMOR_TRACKER__TF2_TIME_WRAPPER_HPP_

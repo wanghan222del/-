@@ -1,0 +1,5 @@
+camera_type: hik  # 或 mv
+camera_params:
+  width: 1920
+  height: 1080
+  fps: 60

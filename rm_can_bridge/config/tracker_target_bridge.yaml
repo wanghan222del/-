@@ -1,0 +1,16 @@
+/rm_can_bridge:
+  ros__parameters:
+    input_mode: tracker_target
+    aim_reference_mode: absolute_from_feedback
+    target_topic: /tracker/target
+    target_timeout_ms: 300
+    feedback_timeout_ms: 200
+    zero_when_lost: false
+    angle_unit: deg
+    invert_yaw_axis: false
+    invert_pitch_axis: true
+    publish_feedback: true
+    feedback_can_id: 0x402
+    feedback_frame_id: gimbal_link
+    expected_target_frame: gimbal_link
+    muzzle_offset_xyz_in_gimbal: [0.08, -0.05, 0.015]

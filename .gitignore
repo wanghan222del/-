@@ -1,6 +1,14 @@
+/build/
+/install/
+/log/
+/MvSdkLog/
+/.agentdocs/
+/.claude/
+*.pid
+
+# Legacy ROS / catkin generated files
 devel/
 logs/
-build/
 bin/
 lib/
 msg_gen/
@@ -21,31 +29,22 @@ devel_isolated/
 /cfg/cpp/
 /cfg/*.py
 
-# Ignore generated docs
+# Generated docs
 *.dox
 *.wikidoc
 
-# eclipse stuff
+# IDE / editor
 .project
 .cproject
-
-# qcreator stuff
 CMakeLists.txt.user
-
-srv/_*.py
-*.pcd
-*.pyc
 qtcreator-*
 *.user
-
-/planning/cfg
-/planning/docs
-/planning/src
-
 *~
-
-# Emacs
 .#*
+
+# Python generated
+srv/_*.py
+*.pyc
 
 # Catkin custom files
 CATKIN_IGNORE
